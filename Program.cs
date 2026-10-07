@@ -24,7 +24,7 @@
         {
             if (y == 0)
             {
-                Console.WriteLine("Error: división por 0", y);
+                Console.WriteLine("Error: división por 0", y, x);
                 return 0;
             }
             else
