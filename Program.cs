@@ -24,12 +24,12 @@
         {
             if (y == 0)
             {
-                Console.WriteLine("Error: división por 0");
+                Console.WriteLine("Error: división por 0", y);
+                return 0;
             }
             else
             {
                 return x/y;
-
             }
         }
 
