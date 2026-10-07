@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(Multiply(2,1));
+            Console.WriteLine(Divide(2,1));
         }
         static int Add(int a, int b)
         {
@@ -14,6 +14,11 @@
         static int Multiply(int x, int y)
         {
             return x*y;
+        }
+
+        static int Divide(int x, int y)
+        {
+            return x/y;
         }
 
     }
