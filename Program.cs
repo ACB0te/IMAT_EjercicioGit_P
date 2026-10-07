@@ -22,7 +22,15 @@
 
         static int Divide(int x, int y)
         {
-            return x/y;
+            if (y == 0)
+            {
+                Console.WriteLine("Error: división por 0");
+            }
+            else
+            {
+                return x/y;
+
+            }
         }
 
 
