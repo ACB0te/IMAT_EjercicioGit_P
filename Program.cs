@@ -4,11 +4,17 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(Add(2,5));
+            Console.WriteLine(Multiply(2,1));
         }
         static int Add(int a, int b)
         {
             return a + b;
         }
+
+        static int Multiply(int x, int y)
+        {
+            return x*y;
+        }
+
     }
 }
